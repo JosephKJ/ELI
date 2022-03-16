@@ -1,0 +1,39 @@
+_BASE_: "../../Base-RCNN-C4.yaml"
+MODEL:
+  WEIGHTS: "/home/joseph/workspace/eb-iOD/output/15_p_5_ft/model_final.pth"
+  BASE_WEIGHTS: "/home/joseph/workspace/eb-iOD/output/first_15/model_final.pth"
+  MASK_ON: False
+  RESNETS:
+    DEPTH: 50
+  ROI_HEADS:
+    # Maximum number of foreground classes to expect
+    NUM_CLASSES: 20
+    # Flag to turn on/off Incremental Learning
+    LEARN_INCREMENTALLY: True
+    # Flag to select whether to learn base classes or iOD expanded classes
+    TRAIN_ON_BASE_CLASSES: False
+    # Number of base classes; these classes would be trained if TRAIN_ON_BASE_CLASSES is set to True
+    NUM_BASE_CLASSES: 15
+    # Number of novel classes; these classes would be trained if TRAIN_ON_BASE_CLASSES is set to False
+    NUM_NOVEL_CLASSES: 5
+    POSITIVE_FRACTION: 0.25
+    NMS_THRESH_TEST: 0.2
+  RPN:
+    FREEZE_WEIGHTS: False
+  ROI_BOX_HEAD:
+    CLS_AGNOSTIC_BBOX_REG: True
+INPUT:
+  MIN_SIZE_TRAIN: (480, 512, 544, 576, 608, 640, 672, 704, 736, 768, 800)
+  MIN_SIZE_TEST: 800
+DATASETS:
+  TRAIN: ('voc_2007_trainval',)
+  TEST: ('voc_2007_test',)
+OUTPUT_DIR: ./output/align_15_p_5_demo
+SEED: 9999
+VIS_PERIOD: 30450
+VERSION: 2
+SOLVER:
+  MAX_ITER: 30450
+EBM_ALIGNER:
+  ENABLE: True
+  FEAT_SAVE_LOCATION: 'features'
