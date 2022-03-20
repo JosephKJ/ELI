@@ -1,10 +1,9 @@
-# ELI for Object Detection
-### CVPR 2022
+# ELI for Object Detection (CVPR 2022)
 
 ## Installation and Setup
 - Install the Detectron2 library that is packages along with this code base. See [INSTALL.md](INSTALL.md).
 - Download and extract Pascal VOC 2007 to `./datasets/VOC2007/`
-- ELI enhances already trained incremental models. You can download trained incremental models from [iOD repository](https://github.com/JosephKJ/iOD). Here are the direct links: [19+1](https://drive.google.com/file/d/1pocjYPenjXda0fRh7ir_c1ItyAZCBoEN/view?usp=sharing) [15+5](https://drive.google.com/file/d/1KaynMWxb6nHytfMYP_wh8Dy-AvsLLazQ/view?usp=sharing) [10+10](https://drive.google.com/file/d/1aWc-1P7ZtNrye_asN5mKMtu7G8G0tLAm/view?usp=sharing)
+- ELI enhances already trained incremental models. You can download trained incremental models from [iOD repository](https://github.com/JosephKJ/iOD). Here are the direct links: [19+1](https://drive.google.com/file/d/1pocjYPenjXda0fRh7ir_c1ItyAZCBoEN/view?usp=sharing) | [15+5](https://drive.google.com/file/d/1KaynMWxb6nHytfMYP_wh8Dy-AvsLLazQ/view?usp=sharing) | [10+10](https://drive.google.com/file/d/1aWc-1P7ZtNrye_asN5mKMtu7G8G0tLAm/view?usp=sharing)
 - Use the script: `run.sh` (You may uncomment the other commands in this scrips to train the base and incremetal models.)
 
 
