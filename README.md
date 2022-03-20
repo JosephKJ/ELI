@@ -1,2 +1,5 @@
-# ELI
-(CVPR 2022) Energy-based Latent Aligner for Incremental Learning
+# Energy-based Latent Aligner for Incremental Learning
+
+### Accepted to CVPR 2022
+
+
