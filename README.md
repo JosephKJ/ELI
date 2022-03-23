@@ -38,7 +38,15 @@ Further, when added to the state-of-the-art incremental object detector, ELI pro
 <img src="https://user-images.githubusercontent.com/4231550/159659669-be756c6b-1948-4cd1-9ab7-acec9c69030b.png"/>
 </p>
 
-## Code
+A key hypothesis that we base our methodology is that while learning a new task, the latent representations will get disturbed, which will in-turn cause catastrophic forgetting of the previous task, and that an energy manifold can be used to align these latents, such that it alleviates forgetting. Here, we illustrate a proof-of-concept that our hypothesis is indeed true.
+We consider a two task experiment on MNIST; T_1 = {0, 1, 2, 3, 4}, T_2 = {5, 6, 7, 8, 9}. After learning the second task, the accuracy on T_1 test set drops to 20.88%, while experimenting with a 32 dimensional latent space.
+The latent aligner in ELI provides 62.56% improvement in test accuracy to 83.44%.
+The visualization of a 512 dimensional latent space after learning T_2 in sub-figure (c), indeed shows cluttering due to representational shift. ELI is able to align the latents as shown in sub-figure (d), which alleviates the drop in accuracy from 89.14% to 99.04%.
+
+The code for these toy experiments are in:
+- [ELI.ipynb](https://github.com/JosephKJ/ELI/blob/main/ELI.ipynb)
+- [ELI_512.ipynb](https://github.com/JosephKJ/ELI/blob/main/ELI_512.ipynb)
+## Classification and Detection Experiments
 
 
 ## Citation
