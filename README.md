@@ -5,7 +5,7 @@
 ## Introduction
 
 <p align="center" width="100%">
-<img src="https://user-images.githubusercontent.com/4231550/159659561-17bea6a6-5228-42e6-a811-eb18d37c48e9.png" width="600"/>
+<img src="https://user-images.githubusercontent.com/4231550/159659561-17bea6a6-5228-42e6-a811-eb18d37c48e9.png" width="400"/>
 </p>
 
 [//]: # (## Methodology)
