@@ -51,6 +51,15 @@ The visualization of a 512 dimensional latent space after learning T_2 in sub-fi
 The code for these toy experiments are in:
 - [ELI.ipynb](https://github.com/JosephKJ/ELI/blob/main/ELI.ipynb)
 - [ELI_512.ipynb](https://github.com/JosephKJ/ELI/blob/main/ELI_512.ipynb)
+
+
+## Implicitly Recognizing and Aligning Important Latents
+
+https://user-images.githubusercontent.com/4231550/159675403-f2cee8e3-bddb-4e8f-80a1-90cb638b372e.mp4
+
+Each row i shows how i^th latent dimension is updated by ELI. We see that different dimensions have different degrees of change, which is implicitly decided by our energy-based model.
+
+
 ## Classification and Detection Experiments
 
 Code and models for the classification and object detection experiments are inside the respective folders:
