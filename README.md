@@ -8,7 +8,7 @@
 <p align="center" width="80%">
 We illustrate an Incremental Learning model trained on a continuum of tasks in the top part of the figure. While learning the current task T_t, the latent representation of Task T_{t-1} data gets disturbed, as shown by red arrows. ELI learns an energy manifold, and uses it to counteract this inherent representational shift, as illustrated by green arrows, thereby alleviating forgetting.</p>
 
-### Abstract
+### Overview
 
 [//]: # (Deep learning models tend to forget their earlier knowledge while incrementally learning new tasks. This behavior emerges because the parameter updates optimized for the new tasks may not align well with the updates suitable for older tasks. The resulting latent representation mismatch causes forgetting. )
 
