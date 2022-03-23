@@ -14,7 +14,7 @@
 ### Models
 ELI enhances trained models. We share our base models [here](https://drive.google.com/file/d/1aqVkruS1oKKmqAcWHumbbPRB9TP_w1Ls/view?usp=sharing). Download and extract to `./model_checkpoints`.
 
-### Alignign using ELI
+### Aligning using ELI
 Please use these script to align the latents with ELI:
 - [cifar_100_5_task.sh](https://github.com/JosephKJ/ELI/tree/main/classification/scripts/cifar_100_5_task.sh)
 - [cifar_100_10_task.sh](https://github.com/JosephKJ/ELI/tree/main/classification/scripts/cifar_100_10_task.sh)
