@@ -7,7 +7,7 @@
 - Use the script: `run.sh` (You may uncomment the other commands in this scrips to train the base and incremetal models.)
 
 
-## Our Environment Configurations
+## Environment Configurations
 - Python version: 3.6.7
 - PyTorch version: 1.3.0
 - CUDA version: 11.0
