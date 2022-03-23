@@ -9,17 +9,18 @@
 We illustrate an Incremental Learning model trained on a continuum of tasks in the top part of the figure. While learning the current task T_t, the latent representation of Task T_{t-1} data gets disturbed, as shown by red arrows. ELI learns an energy manifold, and uses it to counteract this inherent representational shift, as illustrated by green arrows, thereby alleviating forgetting.</p>
 
 ### Abstract
-Deep learning models tend to forget their earlier knowledge while incrementally learning new tasks. This behavior emerges because the parameter updates optimized for the new tasks may not align well with the updates suitable for older tasks. The resulting latent representation mismatch causes forgetting. 
+
+[//]: # (Deep learning models tend to forget their earlier knowledge while incrementally learning new tasks. This behavior emerges because the parameter updates optimized for the new tasks may not align well with the updates suitable for older tasks. The resulting latent representation mismatch causes forgetting. )
 
 In this work, we propose ELI: Energy-based Latent Aligner for Incremental Learning, which:
 - Learns an energy manifold for the latent representations such that previous task latents will have low energy and the current task latents have high energy values. 
 - This learned manifold is used to counter the representational shift that happens during incremental learning.
 
-The implicit regularization that is offered by our proposed methodology can be used as a **plug-and-play module** in existing incremental learning methodologies. 
+The implicit regularization that is offered by our proposed methodology can be used as a **plug-and-play module** in existing incremental learning methodologies for classification and object-detection. 
 
-We validate this through extensive evaluation on CIFAR-100, ImageNet subset, ImageNet 1k and Pascal VOC datasets. We observe consistent improvement when ELI is added to three prominent methodologies in class-incremental learning, across multiple incremental settings. 
+[//]: # (We validate this through extensive evaluation on CIFAR-100, ImageNet subset, ImageNet 1k and Pascal VOC datasets. We observe consistent improvement when ELI is added to three prominent methodologies in class-incremental learning, across multiple incremental settings. )
 
-Further, when added to the state-of-the-art incremental object detector, ELI provides over 5% improvement in detection accuracy, corroborating its effectiveness and complementary advantage to existing art.
+[//]: # (Further, when added to the state-of-the-art incremental object detector, ELI provides over 5% improvement in detection accuracy, corroborating its effectiveness and complementary advantage to existing art.)
 
 
 [//]: # (## Methodology)
