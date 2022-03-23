@@ -58,6 +58,7 @@ Code and models for the classification and object detection experiments are insi
 - [classification](https://github.com/JosephKJ/ELI/tree/main/classification)
 - [detection](https://github.com/JosephKJ/ELI/tree/main/detection)
 
+Each of these are independent repositories. Please consider them separate. 
 
 ## Citation
 If you find our research useful, please consider citing us:
