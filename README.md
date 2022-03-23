@@ -48,6 +48,11 @@ The code for these toy experiments are in:
 - [ELI_512.ipynb](https://github.com/JosephKJ/ELI/blob/main/ELI_512.ipynb)
 ## Classification and Detection Experiments
 
+Code and models for the classification and object detection experiments are inside the respective folders:
+
+- [classification](https://github.com/JosephKJ/ELI/tree/main/classification)
+- [detection](https://github.com/JosephKJ/ELI/tree/main/detection)
+
 
 ## Citation
 If you find our research useful, please consider citing us:
