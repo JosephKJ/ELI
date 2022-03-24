@@ -6,7 +6,7 @@
 <img src="https://user-images.githubusercontent.com/4231550/159659561-17bea6a6-5228-42e6-a811-eb18d37c48e9.png" width="500"/>
 </p>
 <p align="center" width="80%">
-We illustrate an Incremental Learning model trained on a continuum of tasks in the top part of the figure. While learning the current task T_t, the latent representation of Task T_{t-1} data gets disturbed, as shown by red arrows. ELI learns an energy manifold, and uses it to counteract this inherent representational shift, as illustrated by green arrows, thereby alleviating forgetting.</p>
+We illustrate an Incremental Learning model trained on a continuum of tasks in the top part of the figure. While learning the current task <img src="https://render.githubusercontent.com/render/math?math=T_t">, the latent representation of Task <img src="https://render.githubusercontent.com/render/math?math=T_{t+1}"> data gets disturbed, as shown by red arrows. ELI learns an energy manifold, and uses it to counteract this inherent representational shift, as illustrated by green arrows, thereby alleviating forgetting.</p>
 
 ### Overview
 
@@ -42,11 +42,11 @@ The implicit regularization that is offered by our proposed methodology can be u
 A key hypothesis that we base our methodology is that while learning a new task, the latent representations will get disturbed, which will in-turn cause catastrophic forgetting of the previous task, and that an energy manifold can be used to align these latents, such that it alleviates forgetting. 
 
 Here, we illustrate a proof-of-concept that our hypothesis is indeed true.
-We consider a two task experiment on MNIST, where each task contains a subset of classes: T_1 <img src="https://render.githubusercontent.com/render/math?math=T_1"> = {0, 1, 2, 3, 4}, T_2 = {5, 6, 7, 8, 9}. 
+We consider a two task experiment on MNIST, where each task contains a subset of classes: <img src="https://render.githubusercontent.com/render/math?math=T_1"> = {0, 1, 2, 3, 4}, <img src="https://render.githubusercontent.com/render/math?math=T_2"> = {5, 6, 7, 8, 9}. 
 
-After learning the second task, the accuracy on T_1 test set drops to 20.88%, while experimenting with a 32 dimensional latent space.
+After learning the second task, the accuracy on <img src="https://render.githubusercontent.com/render/math?math=T_1"> test set drops to 20.88%, while experimenting with a 32 dimensional latent space.
 The latent aligner in ELI provides 62.56% improvement in test accuracy to 83.44%.
-The visualization of a 512 dimensional latent space after learning T_2 in sub-figure (c), indeed shows cluttering due to representational shift. ELI is able to align the latents as shown in sub-figure (d), which alleviates the drop in accuracy from 89.14% to 99.04%.
+The visualization of a 512 dimensional latent space after learning <img src="https://render.githubusercontent.com/render/math?math=T_2"> in sub-figure (c), indeed shows cluttering due to representational shift. ELI is able to align the latents as shown in sub-figure (d), which alleviates the drop in accuracy from 89.14% to 99.04%.
 
 The code for these toy experiments are in:
 - [ELI.ipynb](https://github.com/JosephKJ/ELI/blob/main/ELI.ipynb)
@@ -57,7 +57,7 @@ The code for these toy experiments are in:
 
 https://user-images.githubusercontent.com/4231550/159675403-f2cee8e3-bddb-4e8f-80a1-90cb638b372e.mp4
 
-Each row i shows how i^th latent dimension is updated by ELI. We see that different dimensions have different degrees of change, which is implicitly decided by our energy-based model.
+Each row <img src="https://render.githubusercontent.com/render/math?math=i"> shows how <img src="https://render.githubusercontent.com/render/math?math=i^th"> latent dimension is updated by ELI. We see that different dimensions have different degrees of change, which is implicitly decided by our energy-based model.
 
 
 ## Classification and Detection Experiments
