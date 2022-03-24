@@ -1,12 +1,12 @@
 # Energy-based Latent Aligner for Incremental Learning
 
-### Accepted to CVPR 2022
+### Accepted to CVPR 2022 [![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/)
 
 <p align="center" width="100%">
 <img src="https://user-images.githubusercontent.com/4231550/159659561-17bea6a6-5228-42e6-a811-eb18d37c48e9.png" width="500"/>
 </p>
 <p align="center" width="80%">
-We illustrate an Incremental Learning model trained on a continuum of tasks in the top part of the figure. While learning the current task T_t, the latent representation of Task T_{t-1} data gets disturbed, as shown by red arrows. ELI learns an energy manifold, and uses it to counteract this inherent representational shift, as illustrated by green arrows, thereby alleviating forgetting.</p>
+We illustrate an Incremental Learning model trained on a continuum of tasks in the top part of the figure. While learning the current task $T_t$, the latent representation of Task $T_{t-1}$ data gets disturbed, as shown by red arrows. ELI learns an energy manifold, and uses it to counteract this inherent representational shift, as illustrated by green arrows, thereby alleviating forgetting.</p>
 
 ### Overview
 
@@ -57,7 +57,7 @@ The code for these toy experiments are in:
 
 https://user-images.githubusercontent.com/4231550/159675403-f2cee8e3-bddb-4e8f-80a1-90cb638b372e.mp4
 
-Each row i shows how i^th latent dimension is updated by ELI. We see that different dimensions have different degrees of change, which is implicitly decided by our energy-based model.
+Each row i shows how $i^{th}$ latent dimension is updated by ELI. We see that different dimensions have different degrees of change, which is implicitly decided by our energy-based model.
 
 
 ## Classification and Detection Experiments
