@@ -42,7 +42,7 @@ The implicit regularization that is offered by our proposed methodology can be u
 A key hypothesis that we base our methodology is that while learning a new task, the latent representations will get disturbed, which will in-turn cause catastrophic forgetting of the previous task, and that an energy manifold can be used to align these latents, such that it alleviates forgetting. 
 
 Here, we illustrate a proof-of-concept that our hypothesis is indeed true.
-We consider a two task experiment on MNIST, where each task contains a subset of classes: T_1 = {0, 1, 2, 3, 4}, T_2 = {5, 6, 7, 8, 9}. 
+We consider a two task experiment on MNIST, where each task contains a subset of classes: T_1 <img src="https://render.githubusercontent.com/render/math?math=T_1"> = {0, 1, 2, 3, 4}, T_2 = {5, 6, 7, 8, 9}. 
 
 After learning the second task, the accuracy on T_1 test set drops to 20.88%, while experimenting with a 32 dimensional latent space.
 The latent aligner in ELI provides 62.56% improvement in test accuracy to 83.44%.
