@@ -81,3 +81,9 @@ If you find our research useful, please consider citing us:
   year={2022}
 }
 ```
+
+
+## Our Related Work
+- Open-world Detection Transformer, CVPR 2022. [Paper]() | [Code]()
+- Towards Open World Object Detection, CVPR 2021. (Oral) [Paper](https://arxiv.org/abs/2103.02603) | [Code](https://github.com/JosephKJ/OWOD)
+- Incremental Object Detection via Meta-learning, TPAMI 2021. [Paper](https://arxiv.org/abs/2003.08798) | [Code](https://github.com/JosephKJ/iOD)
