@@ -6,7 +6,7 @@
 <img src="https://user-images.githubusercontent.com/4231550/159659561-17bea6a6-5228-42e6-a811-eb18d37c48e9.png" width="500"/>
 </p>
 <p align="center" width="80%">
-We illustrate an Incremental Learning model trained on a continuum of tasks in the top part of the figure. While learning the current task $`T_t`$, the latent representation of Task $`T_{t-1}`$ data gets disturbed, as shown by red arrows. ELI learns an energy manifold, and uses it to counteract this inherent representational shift, as illustrated by green arrows, thereby alleviating forgetting.</p>
+We illustrate an Incremental Learning model trained on a continuum of tasks in the top part of the figure. While learning the current task ![equation](https://latex.codecogs.com/svg.image?T_t&space;), the latent representation of Task $`T_{t-1}`$ data gets disturbed, as shown by red arrows. ELI learns an energy manifold, and uses it to counteract this inherent representational shift, as illustrated by green arrows, thereby alleviating forgetting.</p>
 
 ### Overview
 
