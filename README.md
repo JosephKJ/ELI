@@ -1,6 +1,6 @@
 # Energy-based Latent Aligner for Incremental Learning
 
-### Accepted to CVPR 2022 [![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/)
+### Accepted to CVPR 2022 [![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2203.14952)
 
 <p align="center" width="100%">
 <img src="https://user-images.githubusercontent.com/4231550/159659561-17bea6a6-5228-42e6-a811-eb18d37c48e9.png" width="500"/>
