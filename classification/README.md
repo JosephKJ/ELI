@@ -12,7 +12,7 @@
 - ImageNet: Please download from [official website](https://www.image-net.org/download.php), setup the `val` directory following [this](https://github.com/soumith/imagenet-multiGPU.torch#data-processing), and update `--data_dir` argument to your data path.
 
 ### Models
-ELI enhances trained models. We share our base models [here](https://drive.google.com/file/d/1aqVkruS1oKKmqAcWHumbbPRB9TP_w1Ls/view?usp=sharing). Download and extract to `./model_checkpoints`.
+ELI enhances trained models. We share our base models here: [[CIFAR-100 and Mini-ImageNet]](https://drive.google.com/file/d/1aqVkruS1oKKmqAcWHumbbPRB9TP_w1Ls/view?usp=sharing) | [[ImageNet-1k]](https://drive.google.com/file/d/1EWbRBSnk9dMxbIU05_o9PBfTjDE7VmtN/view?usp=sharing). For CIFAR-100 and Mini-ImageNet download and extract to `./model_checkpoints`.
 
 ### Aligning using ELI
 Please use these script to align the latents with ELI:
