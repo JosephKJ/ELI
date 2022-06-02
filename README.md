@@ -1,4 +1,6 @@
-# Energy-based Latent Aligner for Incremental Learning
+## Energy-based Latent Aligner for Incremental Learning [[arXiv](https://arXiv.org/abs/2203.14952) | [Poster](https://github.com/JosephKJ/ELI/files/8820668/ELI_poster_final.pdf) | [Video](https://youtu.be/ohfU9C4lS0s)]
+
+### 
 
 ### Accepted to CVPR 2022 
 [![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2203.14952)
